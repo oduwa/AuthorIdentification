@@ -4,6 +4,14 @@ Simple but effective classification model for predicting the author of a piece o
 The specific model in this repo is based on wine reviews by 20 different authors.
 
 ## Usage
+### Setup
+First install the package dependencies.
+`pip install -r requirements.txt`
+
+### GUI
+There is a GUI system to enable playing around with the system. This can be started in terminal by running `python main.py`.
+This should cause some output to the terminal window, where you should find the text "Running on <URL>". Copy that <URL> and paste it into your browser of choice to use the GUI.
+
 ### Author Prediction
 
 First you instantiate the model. This builds and serializes it, if it has not previously done so, otherwise, it simply loads it from disk.

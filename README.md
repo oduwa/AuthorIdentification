@@ -10,7 +10,7 @@ First you instantiate the model. This builds and serializes it, if it has not pr
 
 ```python
 from wine_model import WineModel
-wm = WineModel
+wm = WineModel()
 ```
 
 Then you can apply the model using the `predict_review_author()` method which takes as input, a list of string texts for which you want to know the authors. Please note that even if you only want to predict for one author, it must still be in a list.
